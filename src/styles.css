@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.number-to-roman {
+  display: flex;
+  justify-content: flex-start;
+}
+.form-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: left;
+}
+.label {
+  margin-bottom: 10px;
+}
+.swop-btn {
+  max-height: 30px;
+  margin: 0 10px;
+}
