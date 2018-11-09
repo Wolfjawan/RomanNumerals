@@ -6,19 +6,22 @@ export default class Result extends React.Component {
     return (
       <div className="form-group">
         <button
-          className="label"
+          className="label result-btn"
           onClick={
             ToShow ? this.props.convertToRoman : this.props.converToInteger
           }
         >
           Click to see Result
         </button>
-        <input
-          type="text"
-          className="input"
-          placeholder="Result"
-          value={!ToShow ? normal_number : roman_numerals}
-        />
+        <p className="result">{!ToShow ? normal_number : roman_numerals}</p>
+        <button
+          className="label result-btn-media"
+          onClick={
+            ToShow ? this.props.convertToRoman : this.props.converToInteger
+          }
+        >
+          Click to see Result
+        </button>
       </div>
     );
   }
